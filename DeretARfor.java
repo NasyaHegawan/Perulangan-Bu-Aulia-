@@ -15,10 +15,9 @@ public class DeretARfor {
         beda = s.nextInt();
         System.out.println();
         System.out.println("Deret Aritmatikanya adalah");
-        for (int i = nilaiAtas; i <= nilaiBawah; i++) {
-            if (i % beda == 0) {
+        for (int i = nilaiAtas; i <= nilaiBawah; i+=beda) {
                 System.out.print(i + ",");
             }
         }
     }
-}
+
